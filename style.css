@@ -1,38 +1,46 @@
+#bola {
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+    width: 300px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body{
-    background-color: teal;
-
+    background-color: rgba(7, 160, 160, 0.678);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 60px;
+    min-width: 320px
 }
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fff;
+    margin: auto;
     text-align: center;
-    width: 100%;
-}
-#bola {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70vw;
-    max-width: 500px;
-    height: 70vw;
-    max-height:500px;
-    background-color: rgb(8, 6, 6);
-    margin: 50px;
-    border-radius: 50%;
-}
+    font-size: 20px;
 
+}
 #triangulo {
-    align-self: center;
-    width: 0px;
-    height: 0px;
-    border-left: 4rem solid transparent;
-    border-right: 4rem solid transparent;
-    border-top:7rem solid #949396;
-    
+ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+ background-color: rgb(240, 240, 240);
+ height: 150px;
+ width: 200px;
+ position: relative;
+ top: -20px;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
 }
 #paragrafo {
-  
-    align-self: center;
-    justify-content: center;
-    color: #fff
+    color: rgb(109, 2, 2);
+    position: relative;
+    top: 10px;
+    right: 32px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;align-self: flex-end;
 }
